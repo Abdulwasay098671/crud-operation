@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syncopate:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.papu{
+    display: flex;
+    border: 1px solid black;
+    width:97% ;
+    height: 50px;
+    align-items: center;
+    
+    
+
+}
+.input input::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.papu p{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0px;
+    font-size: 15px;
+    padding:20px 100px;
+    border-right: 1px solid black;
+    height: 50px;
+    align-items: center;
+
+}
+.papu button{
+    padding: 10px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #6495ED;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.input input{
+height: 50px;
+margin-top: 20px;
+width: 1000px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+}
+.input{
+
+width: 100%;
+
+}
+.input button{
+    padding: 10px 320px 10px 325px;
+    margin-top: 20px;
+    background-color: #6495ED;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+.input h1{
+    color: #6495ED;
+    font-size: 40px;
+}
